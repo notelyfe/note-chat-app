@@ -78,3 +78,16 @@ h1{
     background-image: linear-gradient(rgba(183, 243, 203, 0.955), rgb(195, 130, 195));
     color: rgb(118, 55, 132);
 }
+
+@media(max-width: 550px){
+    .container{
+        max-width: 80%;
+    }
+    #send-form{
+        max-width: 100%;
+    }
+    #btn{
+        width: 60px;
+        height: 36px;
+    }
+}
