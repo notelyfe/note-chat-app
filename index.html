@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RealTime Chat App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="png" href="chat.png">
+    <script defer src="https://note-chat-app-server.herokuapp.com/socket.io/socket.io.js"></script>
+    <script defer src="./client.js"></script>
+</head>
+<body>
+    <nav>
+        <img class="logo" src="chat.png" alt="">
+        <h1>Welcome to group Chat</h1>
+    </nav>
+    <div class="container">
+    </div>
+    <div class="send">
+        <form action="#" id="send-form">
+            <input type="text" name="messageInp" id="messageInp">
+            <button id="btn">Send</button>
+        </form>
+    </div>
+</body>
+</html>

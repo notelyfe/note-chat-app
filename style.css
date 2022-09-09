@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(rgba(183, 243, 203, 0.955), rgb(195, 130, 195));
+}
+
+.logo{
+    padding-top: 5px;
+    display: block;
+    margin: auto;
+    width: 60px;
+}
+
+h1{
+    text-align: center;
+    color: rgb(147, 87, 143);
+}
+
+.container{
+    max-width: 50%;
+    border: 2px solid grey;
+    border-radius: 10px;
+    margin: auto;
+    height: 50vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-bottom: 10px;
+}
+
+.message{
+    background-image: linear-gradient(rgba(183, 243, 203, 0.955), rgb(195, 130, 195));
+    width: auto;
+    margin: 5px 8px 10px 8px;
+    padding: 5px;
+    border: 2px solid green;
+    border-radius: 10px;
+    max-width: 45%;
+    min-height: auto;
+}
+
+.left{
+    float: left;
+    clear: both;
+}
+
+.right{
+    float: right;
+    clear: both;
+}
+
+#send-form{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 50%;
+}
+
+#messageInp{
+    max-width: 50%;
+    border: 2px solid grey;
+    background-image: linear-gradient(rgba(183, 243, 203, 0.955), rgb(195, 130, 195));
+    border-radius: 6px;
+    height: 34px;
+    font-size: 17px;
+}
+
+#btn{
+    height: 34px;
+    cursor: pointer;
+    border: 2px solid grey;
+    width: 50px;
+    border-radius: 6px;
+    font-size: 17px;
+    background-image: linear-gradient(rgba(183, 243, 203, 0.955), rgb(195, 130, 195));
+    color: rgb(118, 55, 132);
+}
